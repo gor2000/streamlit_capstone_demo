@@ -368,7 +368,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 # st.title("Welcome to Fitizens Exercise Counter")
-st.markdown("<h1 style='text-align: center; color: black;'>Welcome to Fitizens Exercise Counter</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #FF4B4B;'>Welcome to Fitizens Exercise Counter</h1>", unsafe_allow_html=True)
 exercise_radio = st.sidebar.radio('Select Exercise', (
     'Pull-up',       'Squat',
     'Push-up',       'Triceps Pushdown',
